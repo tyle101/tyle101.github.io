@@ -1,0 +1,40 @@
+#first-paragraph {
+color:cadetblue;
+background-color:peachpuff;
+font-style: italic;
+text-align: center;
+text-decoration: line-through;
+}
+
+#second-paragraph {
+color:brown;
+background-color:crimson;
+font-size: 18px;
+text-align: center;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color:lightslategray;
+    font-style: italic;
+    text-align: center;
+}
+
+#span1 {
+    color:crimson;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#span2 {
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#span3 {
+    background-color:aquamarine
+}
+
+#span4 {
+    text-align: right;
+}
