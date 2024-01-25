@@ -1,0 +1,14 @@
+div {
+    border: 10px ridge rgb(118, 145, 232);
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color:cornflowerblue;
+}
+
+p {
+    /*border: 20px dotted blue;*/
+    border-radius: 50%;
+    margin: 60px;
+    padding: 48px 60px;
+    background-color:dodgerblue;
+}
