@@ -1,0 +1,15 @@
+.tetris-block {
+    padding: 28px;
+    border-radius: 12px;
+    border-style: outset;
+    display: inline-block;
+}
+
+.red {
+    background-color:red;
+    border-color: crimson;
+}
+
+.round {
+    border-radius: 50%;
+}
