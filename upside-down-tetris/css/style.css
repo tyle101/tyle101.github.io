@@ -1,19 +1,96 @@
 .tetris-block {
-    padding: 28px;
-    border-radius: 12px;
+    padding: 24px;
+    border-width: 12px;
     border-style: outset;
     display: inline-block;
 }
 
 .red {
     background-color:red;
-    border-color: crimson;
+    border-color:crimson;
 }
 
-.round {
-    border-radius: 50%;
+.blue {
+    background-color:aqua;
+    border-color:skyblue;
+}
+
+.yellow {
+    background-color: yellow;
+    border-color: yellowgreen;
+}
+
+.green {
+    background-color: green;
+    border-color: greenyellow;
+}
+
+.orange {
+    background-color:orangered;
+    border-color:orange;
+}
+
+.purpule {
+    background-color:purple;
+    border-color:violet;
+}
+
+.pink {
+    background-color:pink;
+    border-color:deeppink;
+}
+
+.blue {
+    background-color:darkblue;
+    border-color:cornflowerblue
 }
 
 .red {
-    border-radius: 50%;
+    background-color:crimson;
+    border-color:darkred;
+}
+
+.yellow {
+    background-color:yellow;
+    border-color:gold;
+}
+
+.deeppink {
+    background-color:deeppink;
+    border-color:pink;
+}
+
+.skyblue {
+    background-color:skyblue;
+    border-color:aqua
+}
+
+.gold {
+    background-color:gold;
+    border-color:goldenrod;
+}
+
+.seagreen {
+background-color:aquamarine;
+border-color:aqua;
+}
+
+.sunrise orange {
+    background-color:orangered;
+    border-color:orange
+}
+
+.midnightblue {
+    background-color:darkblue;
+    border-color:darkcyan;
+}
+
+.limegreen {
+    background-color:lime;
+    border-color:limegreen;
+}
+
+.lightsalmon {
+    background-color:lightsalmon;
+    border-color:lightcoral;
 }
