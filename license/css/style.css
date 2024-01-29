@@ -1,0 +1,70 @@
+#license {
+    width: 700px;
+    border: 3px solid black;
+}
+
+ h1{
+    border: 3px solid red;
+}
+
+#left-side {
+    border: 3px solid red;
+    display: inline-block;
+    width: 65%
+}
+
+#right-side {
+    border: 3px solid red;
+    display: inline-block;
+    
+}
+
+#data-fields{
+    display: inline-block;
+}
+
+#small-pic {
+    display: inline-block;
+    border: 3px solid green;
+}
+
+#content {
+    color: rgb(0, 0, 0);
+}
+
+#data-fields {
+    color: midnightblue
+}
+
+h4 {
+    color:white;
+}
+
+h4 {
+    background-color: midnightblue;
+}
+
+#signature {
+    color:black;
+}
+
+#license.no {
+    color:midnightblue;
+}
+
+h1 {
+    color:midnightblue
+}
+
+#donor-and-real-id {
+    color:red;
+}
+
+div-brown {
+    color: red;
+}
+
+
+
+
+
