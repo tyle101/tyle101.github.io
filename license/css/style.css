@@ -33,7 +33,7 @@
 }
 
 #data-fields {
-    color: midnightblue
+    color: midnightblue;
 }
 
 h4 {
@@ -53,16 +53,90 @@ h4 {
 }
 
 h1 {
-    color:midnightblue
+    color:midnightblue;
 }
 
 #donor-and-real-id {
     color:red;
 }
 
-div-brown {
+#id-and-expiration div{
+    display: inline-block;
+}
+
+#data-left {
+    border: 3px solid skyblue;
+    display: inline-block;
+}
+
+#data-right {
+    border: 3px solid skyblue;
+    display: inline-block;
+}
+
+#donor {
+    border: 3px solid skyblue;
+    display: inline-block;
+    
+}
+
+#real-id {
+    border: 3px solid skyblue;
+    display: inline-block;
+}
+
+#signature {
+    text-align: center;
+}
+
+#real-id {
+    color:gold;
+    
+}
+
+#license {
+    background-color:slategrey;
+
+}
+
+#data-left span {
     color: red;
 }
+
+#data-fields span {
+    color: red;
+}
+
+#id-and-expiration span{
+    color: red;
+}
+
+#real-id {
+    border: 0px solid;
+}
+
+#donor {
+    border: 0px;
+}
+
+#data-right {
+    border: 0px solid;
+}
+
+#data-left {
+    border: 0px solid;
+}
+
+#right-side {
+    border: 0px solid;
+}
+
+#left-side {
+    border: 0px solid;
+}
+
+
+
 
 
 
