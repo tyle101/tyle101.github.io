@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-column {
+    background-color: crimson;
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-container {
+    background-color: crimson;
+    padding: 48px 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h3 {
+    background-color:gold;
+    
+}
+
+img {
+    margin-right: auto;
+    margin-left: auto;
+}
