@@ -1,7 +1,7 @@
 /* Drill 1 - Write your code solution below */
 #container-d1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 
