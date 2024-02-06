@@ -56,7 +56,7 @@ body {
 }
 
 #sidebar ul a:hover {
-    background-color: #eeeeee;
+    background-color: crimson;
     border-radius: 12px;
 }
 
@@ -99,4 +99,8 @@ body {
 
 .video-line .video-channel {
     margin-bottom: 4px;
+}
+
+body {
+    background: radial-gradient(topleft, midnightblue, lightskyblue,)
 }
