@@ -12,3 +12,9 @@ card-style-1 {
     max-width: 100%;
     text-align: center;
 }
+
+centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+}
