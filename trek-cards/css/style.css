@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+card-style-1 {
+    max-width: 100%;
+    max-width: 200px;
+}
+
+.card-style-2 {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
