@@ -1,3 +1,21 @@
-.animagram-card-1 {
-    
+.card-style-1 {
+    max-width: 350px;
+
 }
+
+.card-style-2 {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.animagram-card-3 {
+    width: 100px;
+    max-width: 350px;
+}
+
+.animagram-card-4 {
+    width: 50%;
+    max-width: 350px;
+    border-radius: 50%;
+}
+
