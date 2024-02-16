@@ -36,4 +36,11 @@
 
 
 /* Drill 10 - Write your code solution below */
+#container-10 {
+    display: flex;
+}
+
+.box1 {
+    flex: 2;
+}
 

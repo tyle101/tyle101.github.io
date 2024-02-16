@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: fantasy;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, darkgrey, peachpuff);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoratoin: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar #logo img {
+    width: 150px;
+}
+
