@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    body {
+        background-color: skyblue;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        background-color: firebrick;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
