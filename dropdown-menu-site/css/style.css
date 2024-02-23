@@ -11,10 +11,10 @@ body {
     background: linear-gradient(
         to bottom,
         lavender,
-        crimson,
-        display flex
-        align-items center
-    );
+        crimson
+    ); 
+    display: flex;
+    align-items: center;
 }
 
 #navbar a {
@@ -123,5 +123,18 @@ body {
 
 #card3:hover .card-content {
     opacity: 0;
+}
+
+.center-column {
+    background-color: crimson;
+    width:50%;
+    min-width: 500px;
+    margin: 0px auto;
+}
+
+#hero-1 {
+    background-image:url(../images/guy-and-dog.jpg);
+    height:100vh;
+    background-size: cover;
 }
 
