@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family:monospace;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, crimson, darkred);
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, crimson, darkred);
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 1;
+        visibility: visible;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu-a {
+    background-color:darkred;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: crimson;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#sidebar-column-1 {
+    background-color: lightcyan;
+}
+
+#sidebar-column {
+    background-color: lavender;
+}
+
+#sidebar-column-2 {
+    background-color: peachpuff;
+}

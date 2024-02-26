@@ -11,7 +11,7 @@ body {
     background: linear-gradient(
         to bottom,
         lavender,
-        crimson
+        grey
     ); 
     display: flex;
     align-items: center;
