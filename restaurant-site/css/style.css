@@ -8,9 +8,9 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to bottom, lavender, plum);
     display: flex;
     align-items: center;
+    background-image:url("../images/stars.jpg");
 }
 
 #navbar a {
@@ -129,7 +129,7 @@ body {
 }
 
 #hero-1 {
-    background-image:url("../images/stars.jpg");
+    
 }
 
 #two-columns {
@@ -211,76 +211,30 @@ body {
     font-size: 24px;
 }
 
-#navbar {
-    background: linear-gradient(to bottom, lavender, plum);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.light-container {
+    background-color: lavender;
+    padding: 36px 0px;
 }
 
-#navbar a {
-    text-decoration: none;
-    color: white;
+.dark-container {
+    background-color: grey;
+    color: black;
+    padding: 36px 0px;
+}
+
+.center-column {
     padding: 24px;
-}
-
-#navbar img {
-    width: 200px;
-}
-
-#navbar #logo {
     margin-right: auto;
-}
-
-#layout {
+    margin-left: auto;
     width: 800px;
-    margin: 48px auto;
-    font-size: 24px;
-    height: 200vh;
 }
 
-#header {
-    position: sticky;
-    top: 0px;
+.side-by-side {
+    display: inline-block;
+    width: 100%;
 }
 
-#navbar-bottom {
-    background:linear-gradient(to bottom, lavender,plum);
-    display: flex;
-    justify-content: space-between;
-}
-
-.single-column {
-    min-width: 600px;
-    max-width: 1200px;
-    margin: 0px auto;
-}
-
-#card-section {
-    background-color: #5b00ed;
-    color: lavender;
-    padding: 48px;
-}
-
-.card-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.card {
-    flex: 1;
-    border: 3px solid plum;
-    padding: 36px;
-    text-align: center;
-    margin: 36px;
-}
-
-.card h3 {
-    font-size: 36px;
-    margin: 0px;
-}
-
-.card p {
-    font-size: 24px;
-    margin: 24px 0px 0px;
+.side-by-side img {
+    padding-left: 36px;
+    width: 100%;
 }
