@@ -10,7 +10,7 @@ body {
 #navbar {
     display: flex;
     align-items: center;
-    background-image:url("../images/stars.jpg");
+    background-image:url("../images/sunset-galaxy.jpg");
 }
 
 #navbar a {
@@ -129,7 +129,11 @@ body {
 }
 
 #hero-1 {
+<<<<<<< HEAD
     background-image:url(../images/spacex.jpg);
+=======
+    background-image:url(../images/purple-galaxy.jpg);
+>>>>>>> 26515974883bb77d77bd4a1e21d2ab67c3407d19
 }
 
 #two-columns {
@@ -153,7 +157,7 @@ body {
 }
 
 #hero-3 {
-    background-image:url(../images/stars.jpg);
+    background-image:url(../images/purple-galaxy.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -217,8 +221,8 @@ body {
 }
 
 .dark-container {
-    background-color: grey;
-    color: black;
+    background-color: gray;
+    color: white;
     padding: 36px 0px;
 }
 
@@ -237,4 +241,10 @@ body {
 .side-by-side img {
     padding-left: 36px;
     width: 100%;
+}
+
+@media screen and (max-width:800px) and (min-width: 100%) {
+    center-column {
+        background-color: plum;
+    }
 }
